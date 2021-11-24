@@ -8,5 +8,9 @@ namespace UserAndPermissionSystem
 {
     public interface IGerneralDAO
     {
+        void insertUser(User user);
+        void updateUser(User user);
+        void deleteUser(User user);
+        void getUser(string username);
     }
 }
